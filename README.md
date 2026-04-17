@@ -1,9 +1,8 @@
 
 def AIchaBot():
     print("ChatBot: You're Welcome to AI ChatBot type 'bye' to exit")
-
     
-while True:
+    while True:
     user_input = input("You:").lower()
 
     if user_input in ["hi","hello"]:
